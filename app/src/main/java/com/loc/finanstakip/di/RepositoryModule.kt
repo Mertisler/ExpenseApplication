@@ -1,5 +1,7 @@
 package com.loc.finanstakip.di
 
+import com.loc.finanstakip.data.repository.ExpenseRepository
+import com.loc.finanstakip.data.repository.ExpenseRepositoryImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
